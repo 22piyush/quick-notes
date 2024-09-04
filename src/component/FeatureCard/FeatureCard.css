@@ -1,0 +1,30 @@
+
+.feature-card{
+    background-color:white;
+    width: 200px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #BED1CF;
+
+}
+.feature-text{
+    font-size:14px;
+}
+.feature-img{
+    display: block;
+    margin: 20px auto;
+}
+
+@media screen and (max-width:400px) {
+    
+ .feature-card{
+    margin-top: 20px;
+    padding: 10px;
+
+}
+.feature-img{
+    display: block;
+    margin: 10px auto;
+    height: 40px;
+}
+}
