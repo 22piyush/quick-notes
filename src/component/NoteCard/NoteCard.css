@@ -1,0 +1,20 @@
+.note-card{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    margin: 10px 30px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+.note-card-emoji{
+    font-size: 40px;
+    margin-right: 40px;
+}
+.note-card-title{
+    margin: 0;
+}
+.note-card-description{
+    margin: 0;
+}
