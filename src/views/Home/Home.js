@@ -1,8 +1,8 @@
 import React from "react";
 import "./Home.css";
-import ImgSecure from "./cyber-security.png";
+import ImgSecure from "./localstorage.jpg";
 import likeImage from "./love.png";
-import brainImage from "./artificial-intelligence.png";
+import brainImage from "./brain.jpg";
 import FeatureCard from "../../component/FeatureCard/FeatureCard";
 import { Link } from "react-router-dom";
 

@@ -1,7 +1,7 @@
 
 .feature-card{
     background-color:white;
-    width: 200px;
+    width: 300px;
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0 0 10px #BED1CF;
@@ -13,6 +13,8 @@
 .feature-img{
     display: block;
     margin: 20px auto;
+    height: 250px;
+    width: 290px;
 }
 
 @media screen and (max-width:400px) {
