@@ -1,20 +1,45 @@
-.note-card{
+.note-card {
     display: flex;
+    justify-content: space-between; 
     align-items: center;
     background-color: #fff;
-    margin: 10px 30px;
-    padding: 10px;
+    margin: 20px auto;
+    width: 50%;
+    padding: 30px; 
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.note-card-content {
+    display: flex;
+    align-items: center;
 
 }
-.note-card-emoji{
+.note-card-emoji {
     font-size: 40px;
-    margin-right: 40px;
+    margin-right: 20px; 
 }
-.note-card-title{
-    margin: 0;
+.note-card-text {
+    display: flex;
+    flex-direction: column;
 }
-.note-card-description{
+.note-card-title {
     margin: 0;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.note-card-description {
+    margin: 0;
+    font-size: 1rem; 
+    color: #666; 
+}
+.delete-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.delete-button:hover {
+    background-color: darkred;
 }
