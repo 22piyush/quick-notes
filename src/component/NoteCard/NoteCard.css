@@ -1,4 +1,20 @@
-
+.note-card{
+    background-color: aliceblue;
+    width: 80%;
+    margin: 40px auto;
+}
+.useflex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+.margin{
+    margin: 10px 0;
+}
+.button-card{
+    
+}
 .delete-button {
     background-color: red;
     color: white;
